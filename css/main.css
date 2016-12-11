@@ -160,6 +160,8 @@ figcaption {
 
 .last {
   position: relative;
+  width: 40%;
+  padding: 3rem;
 }
 
 @media only screen and (min-width: 25em) {
