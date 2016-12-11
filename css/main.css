@@ -157,7 +157,6 @@ nav a:hover {
 
 
 h2 {
-
   text-align: center;;
   color: #666;
   font-size: 1.5rem;
@@ -180,10 +179,6 @@ figcaption {
   nav li {
     display: inline-block;
     text-align: center;
-  }
-
-  .chocolate {
-
   }
 
 
