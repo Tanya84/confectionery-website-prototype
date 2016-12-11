@@ -29,7 +29,7 @@ body {
 }
 
 .chocolate {
-display: block;
+display: inline-block;
 margin: 0:
 }
 
@@ -37,8 +37,13 @@ margin: 0:
   display: block;
 }
 
+.gift-ideas {
+  display: block;
+}
+
 img {
   width: 50%;
+  display: inline-block; 
 
 }
 
@@ -217,9 +222,8 @@ figcaption {
     text-align: center;
   }
 
-  .chocolate {
-    padding left: 20rem;
-  }
+
+
 
 }
 
