@@ -20,17 +20,16 @@ body {
 
 .candy1 {
   width: 60px;
-  float:left;
+  float: left;
 }
 
 .candy {
   width: 60px;
-  float:right;
+  float: right;
 }
 
 .chocolate {
-display: inline-block;
-margin: 0:
+display: block;
 }
 
 .candy2 {
@@ -42,9 +41,13 @@ margin: 0:
 }
 
 img {
-  width: 50%;
-  display: inline-block; 
+  width: 100%;
+  display: block;
 
+}
+
+.last {
+  position: absolute;
 }
 
 .img1 {
@@ -213,7 +216,6 @@ figcaption {
 
   nav {
     display: inline-block;
-    vertical-align: middle;
   }
 
   h1 {
