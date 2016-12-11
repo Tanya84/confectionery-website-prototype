@@ -29,7 +29,7 @@ body {
 }
 
 .chocolate {
-display: block;
+  display: block;
 }
 
 .candy2 {
@@ -44,10 +44,6 @@ img {
   width: 100%;
   display: block;
 
-}
-
-.last {
-  position: absolute;
 }
 
 .img1 {
@@ -107,19 +103,11 @@ nav a:hover {
 
 }
 
- .cards {
-  padding: 0;
-  margin: .5rem;
-}
-
-
-
 .img-flex {
   width: 100%;
   display: block;
   position: relative;
 }
-
 
 .p1 {
   font-size: 2rem;
@@ -135,11 +123,9 @@ nav a:hover {
   text-decoration: none;
   border: 3px solid #333;
   color: #fff;
-  padding: .5em .1em .5em;
+  padding: .5em .1em;
   text-align: center;
   margin: 3rem;
-
-
 }
 
 .btn-big {
@@ -151,13 +137,11 @@ nav a:hover {
 .btn:hover {
   background-color: #000;
   border-color: #000;
-
-
 }
 
-
 h2 {
-  text-align: center;;
+
+  text-align: center;
   color: #666;
   font-size: 1.5rem;
   font-size: 2rem;
@@ -173,6 +157,9 @@ figcaption {
   text-align: center;
 }
 
+.last {
+  position: absolute;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -180,9 +167,6 @@ figcaption {
     display: inline-block;
     text-align: center;
   }
-
-
-
 }
 
 @media only screen and (min-width: 38em) {
@@ -205,9 +189,8 @@ figcaption {
 
     padding-left: 1rem;
     padding-right: 1rem;
-    text-align: center;;
+    text-align: center;
   }
-
 
   nav {
     display: inline-block;
@@ -219,9 +202,10 @@ figcaption {
     text-align: center;
   }
 
+  img {
 
-
-
+    width: auto;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -235,7 +219,4 @@ figcaption {
   h1 {
     text-align: center;
   }
-
-
-
 }
