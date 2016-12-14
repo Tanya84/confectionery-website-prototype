@@ -48,7 +48,6 @@ img {
 
 .img1 {
   width: 30%;
-  padding-left: 2rem;
   display: inline-block;
 }
 
@@ -150,8 +149,17 @@ h2 {
   text-decoration: none;
 }
 
+h3 {
+
+  float: right;
+  display: inline-block;
+
+
+}
+
 p {
   text-align: center;
+  margin: 0;
 }
 
 figcaption {
@@ -159,9 +167,14 @@ figcaption {
 }
 
 .last {
-  position: relative;
   width: 40%;
-  padding: 3rem;
+  padding: 0;
+  margin: 0;
+}
+
+.btn2 {
+  text-align: center;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 25em) {
@@ -169,6 +182,10 @@ figcaption {
   nav li {
     display: inline-block;
     text-align: center;
+  }
+
+  .img1 {
+    padding: 0;
   }
 }
 
