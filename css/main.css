@@ -14,6 +14,10 @@ html {
 
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
 }
@@ -106,15 +110,22 @@ nav a:hover {
 .img-flex {
   width: 100%;
   display: block;
+}
+
+.banner {
   position: relative;
 }
 
 .p1 {
   font-size: 2rem;
-  background-color: #666;
+  background-color: rgba(0, 0, 0, .5);
   padding: 1rem;
   margin: 0;
+  position: absolute;
+}
 
+.p2 {
+  text-align: center;
 }
 
 .btn {
@@ -131,8 +142,20 @@ nav a:hover {
 .btn-big {
   font-size: 2rem;
   display: block;
-
 }
+
+.btn-2 {
+  display: inline-block;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  padding: .5rem;
+}
+
+
+
+
+
 
 .btn:hover {
   background-color: #000;
@@ -149,15 +172,9 @@ h2 {
   text-decoration: none;
 }
 
-h3 {
-
-  float: right;
-  display: inline-block;
-}
-
 p {
-  text-align: center;
   margin: 0;
+  text-align: center;
 }
 
 figcaption {
@@ -170,12 +187,46 @@ figcaption {
   margin: 0;
 }
 
-.btn2 {
+.aboutus {
   text-align: center;
-  text-decoration: none;
+  padding: 1em 0;
+}
+
+.abouttxt {
+  width: 60%;
+  float: left;
+  padding: 0 1.5em 1.5em;
+  text-align: center;
+  overflow: hidden;
+}
+
+.aboutimg {
+  width: 40%;
+  float: right;
+  padding-bottom: 2rem;
+
+}
+
+h3 {
+  text-align: center;
+  margin-top: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  clear: both;
 }
 
 @media only screen and (min-width: 25em) {
+
+  .p1 {
+    width: 100%;
+  }
+
+  .p2 {
+    text-align: center;
+  }
 
   nav li {
     display: inline-block;
@@ -192,6 +243,11 @@ figcaption {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .abouttxt {
+    border: #000 3px solid;
+    margin: 1rem;
   }
 
 }
@@ -220,6 +276,11 @@ figcaption {
     text-align: center;
   }
 
+  .p1 {
+    text-align: center;
+    width: 100%;
+  }
+
   img {
 
     width: auto;
@@ -235,6 +296,6 @@ figcaption {
   }
 
   h1 {
-    text-align: center;
+  text-align: center;
   }
 }
