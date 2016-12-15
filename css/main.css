@@ -20,6 +20,7 @@ html {
 
 body {
   margin: 0;
+
 }
 
 .candy1 {
@@ -107,7 +108,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #a63f38;
+  background-color: #000;
 
 }
 
@@ -247,6 +248,12 @@ footer {
   .abouttxt {
     border: #000 3px solid;
     margin: 1rem;
+    padding: 0;
+    width: 40%;
+  }
+
+  .aboutimg {
+    width: 40%;
   }
 
 }
@@ -280,10 +287,10 @@ footer {
     width: 100%;
   }
 
-  img {
 
-    width: auto;
-  }
+
+
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -295,6 +302,6 @@ footer {
   }
 
   h1 {
-  text-align: center;
+    text-align: center;
   }
 }
