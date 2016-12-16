@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.5 Merriweather, serif;
+  font: normal 100%/1.5 Pacifico, Merriweather;
 
 }
 
@@ -21,8 +21,6 @@ html {
 body {
   margin: 0;
   background-color: #cb8ae5;
-
-
 }
 
 .candy1 {
@@ -36,8 +34,10 @@ body {
 }
 
 .chocolate {
-  display: block;
+
+  display: inline-block;
   padding-bottom: .5rem;
+  width: 100%;
 }
 
 .candy2 {
@@ -77,7 +77,7 @@ img {
 
 h1 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0;
 }
 
@@ -103,6 +103,7 @@ nav li {
 
 nav a {
   color: #fff;
+  font-family: serif;
   font-size: 1.5rem;
   text-decoration: none;
   border: 1px solid #666;
@@ -129,11 +130,12 @@ nav a:hover {
 
 .p1 {
   font-size: 2rem;
-  background-color: rgba(203, 138, 229, 0.45);
+  background-color: rgba(203, 138, 229, .45);
   padding: 1rem;
   margin: 0;
   position: absolute;
   color: #000;
+  font-family: Merriweather;
 
 }
 
@@ -150,6 +152,7 @@ nav a:hover {
   padding: .5em .1em;
   text-align: center;
   margin: 3rem;
+  font-family: Merriweather;
 }
 
 .btn-big {
@@ -193,6 +196,7 @@ p {
 
 figcaption {
   text-align: center;
+  font-family: Merriweather;
 }
 
 .last {
@@ -234,6 +238,8 @@ h3 {
 
 .p3 {
   border-bottom: #000 2px solid;
+  font-family: Merriweather;
+  font-weight: bolder;
 }
 
 footer {
@@ -242,11 +248,13 @@ footer {
   clear: both;
   background-color: #6c8fe0;
   color: #000;
+  font-family: serif;
 }
 
 @media only screen and (min-width: 25em) {
 
   .p1 {
+
     width: 100%;
   }
 
@@ -262,6 +270,7 @@ footer {
   .img1 {
     padding: 0;
   }
+
   .abouttxt {
     border: #000 3px solid;
     margin: 1rem;
@@ -277,13 +286,17 @@ footer {
     padding-top: 0;
   }
 
-
   p {
     padding: 0;
   }
 }
 
 @media only screen and (min-width: 38em) {
+
+  h1 {
+    text-align: center;
+    font-size: 3.5rem;
+  }
 
   html {
     font-size: 110%;
@@ -350,27 +363,25 @@ footer {
     padding-right: 2rem;
     padding-bottom: 1.5rem;
     padding-top: 0;
-}
-.abouttxt {
-  border: #000 3px solid;
-  width: 50%;
-  vertical-align: middle;
-  margin-left: 3rem;
+  }
+
+  .abouttxt {
+    border: #000 3px solid;
+    width: 50%;
+    vertical-align: middle;
+    margin-left: 3rem;
+  }
+
+  .about {
+    padding-top: 0;
+  }
+
+  p {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
 }
 
-.about {
-  padding-top: 0;
-}
-
-p {
-  padding-top: 2rem;
-}
-
-
-}
-
-
-}
 @media only screen and (min-width: 90em) {
 
   html {
