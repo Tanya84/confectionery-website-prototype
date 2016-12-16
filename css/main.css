@@ -20,6 +20,8 @@ html {
 
 body {
   margin: 0;
+  background-color: #cb8ae5;
+
 
 }
 
@@ -35,14 +37,17 @@ body {
 
 .chocolate {
   display: block;
+  padding-bottom: .5rem;
 }
 
 .candy2 {
   display: block;
+  padding-bottom: .5rem;
 }
 
 .gift-ideas {
   display: block;
+  padding-bottom: .5rem;
 }
 
 img {
@@ -72,12 +77,12 @@ img {
 
 h1 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
   margin: 0;
 }
 
 header {
-  background-color: #dcd4cd;
+  background-color: pink;
   overflow: hidden;
   padding: 0;
 }
@@ -104,6 +109,7 @@ nav a {
   padding: .5rem;
   display: inline-block;
   border-radius: 4px;
+  background-color: #6c8fe0;
 
 }
 
@@ -123,10 +129,12 @@ nav a:hover {
 
 .p1 {
   font-size: 2rem;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(203, 138, 229, 0.45);
   padding: 1rem;
   margin: 0;
   position: absolute;
+  color: #000;
+
 }
 
 .p2 {
@@ -134,7 +142,7 @@ nav a:hover {
 }
 
 .btn {
-  background-color: #333;
+  background-color: #6c8fe0;
   border-radius: 5px;
   text-decoration: none;
   border: 3px solid #333;
@@ -165,16 +173,22 @@ nav a:hover {
 h2 {
 
   text-align: center;
-  color: #666;
+  color: #000;
   font-size: 1.5rem;
   font-size: 2rem;
   font-weight: bolder;
   text-decoration: none;
+  display: block;
+  background-color: pink;
+  margin: 0;
+  padding: 2rem 0;
 }
 
 p {
   margin: 0;
   text-align: center;
+  font-size: 1rem;
+  background-color: pink;
 }
 
 figcaption {
@@ -195,7 +209,6 @@ figcaption {
 .abouttxt {
   width: 60%;
   float: left;
-  padding: 0 1.5em 1.5em;
   text-align: center;
   overflow: hidden;
 }
@@ -203,19 +216,32 @@ figcaption {
 .aboutimg {
   width: 40%;
   float: right;
-  padding-bottom: 2rem;
 
+}
+
+.about {
+  padding-top: 1rem;
+  padding-right: 1rem;
 }
 
 h3 {
   text-align: center;
-  margin-top: 0;
+  margin: 0;
+  padding-bottom: .5rem;
+  background-color: #6c8fe0;
+  border-bottom: #000 2px solid;
+}
+
+.p3 {
+  border-bottom: #000 2px solid;
 }
 
 footer {
   text-align: center;
   padding: 1rem;
   clear: both;
+  background-color: #6c8fe0;
+  color: #000;
 }
 
 @media only screen and (min-width: 25em) {
@@ -236,6 +262,25 @@ footer {
   .img1 {
     padding: 0;
   }
+  .abouttxt {
+    border: #000 3px solid;
+    margin: 1rem;
+    padding: 0;
+    width: 40%;
+    vertical-align: middle;
+  }
+
+  .aboutimg {
+    width: 40%;
+    vertical-align: middle;
+    padding-bottom: 1rem;
+    padding-top: 0;
+  }
+
+
+  p {
+    padding: 0;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -248,12 +293,24 @@ footer {
   .abouttxt {
     border: #000 3px solid;
     margin: 1rem;
-    padding: 0;
-    width: 40%;
+    width: 50%;
+    vertical-align: middle;
   }
 
   .aboutimg {
     width: 40%;
+    vertical-align: middle;
+    margin-bottom: 1rem;
+  }
+
+  .about {
+    padding-bottom: 1rem;
+  }
+
+  p {
+    display: block;
+    padding-top: 1rem;
+
   }
 
 }
@@ -287,12 +344,33 @@ footer {
     width: 100%;
   }
 
+  .aboutimg {
+    width: 35%;
+    vertical-align: middle;
+    padding-right: 2rem;
+    padding-bottom: 1.5rem;
+    padding-top: 0;
+}
+.abouttxt {
+  border: #000 3px solid;
+  width: 50%;
+  vertical-align: middle;
+  margin-left: 3rem;
+}
 
+.about {
+  padding-top: 0;
+}
 
+p {
+  padding-top: 2rem;
+}
 
 
 }
 
+
+}
 @media only screen and (min-width: 90em) {
 
   html {
